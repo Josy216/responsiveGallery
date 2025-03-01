@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.title {
+  padding: 10px;
+  text-align: center;
+}
+.phots {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.images img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+
+@media (max-width: 768px) {
+  .phots {
+    flex-direction: column;
+  }
+}
